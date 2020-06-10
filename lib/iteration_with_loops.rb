@@ -8,6 +8,7 @@ while row_index < find_even_values.count do
   while element_index < find_even_values[row_index].count do 
     if find_even_values[row_index][element_index] % 2 = 0 
       p find_even_values[row_index][element_index]
+    end
     element_index += 1
   end
   row_index += 1 
